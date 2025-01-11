@@ -2,7 +2,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'NeXT-Panel',
+  title: 'Code4Hope Docs',
   tagline: 'Next generation proxy service management system',
   favicon: 'img/favicon.ico',
   url: 'https://www.nextpanel.dev',
@@ -48,10 +48,10 @@ const config = {
       },
       image: 'img/next.svg',
       navbar: {
-        title: 'NeXT-Panel',
+        title: ' ',
         logo: {
           alt: 'NeXT-Panel Logo',
-          src: 'img/next-logo.svg',
+          src: 'img/black _logo_no_text.PNG',
         },
         items: [
           {
@@ -60,18 +60,14 @@ const config = {
             label: 'Docs',
             position: 'left',
           },
+          
           {
-            to: '/blog',
-            label: 'Blog',
-            position: 'left'
-          },
-          {
-            href: 'https://github.com/SSPanel-NeXT/NeXT-Panel',
+            href: 'https://github.com/AryanM24/code4hope',
             label: 'GitHub',
             position: 'right',
           },
           {
-            href: 'https://discord.gg/A7uFKCvf8V',
+            href: 'https://discord.gg/7ssCZx8Hme',
             label: 'Discord',
             position: 'right',
           },

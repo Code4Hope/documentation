@@ -1,53 +1,107 @@
-# Universal Subscription
+# Google Apps Script (GAS)
 
-## Json format
+Google Apps Script, commonly abbreviated GAS, is a JavaScript-based scripting system for Google products such as Gmail, Google Drive, Google Sheets, and more. GAS powers addons and allows you to create custom utilities or automation functions that integrate with various Google services.  
 
-Request Path
+Since GAS runs on Google Cloud, you don’t need to host your own backend—Google handles everything for free.
 
+## Example Use Cases:
+- Automated data storage
+- Cross-platform web apps integrating with Google services
+- Automatic email template rendering and sending
+- Automatic Google Calendar event creation
+
+For more information, visit the [official documentation](https://developers.google.com/apps-script).
+
+---
+
+## Types of GAS Projects
+
+### Standalone Projects
+- Not tied to a specific Google Drive file.
+- Created from [script.google.com](https://script.google.com).
+- Best for apps intended for multiple unrelated files.
+
+### Container-Bound Projects
+- Linked to a specific Google Drive file.
+- Copied and shared along with the file.
+- Ideal for automation functions tailored to that file (e.g., a Google Sheet).
+
+Both types can be managed with Google's in-browser IDE, which includes execution logs, error tracking, deployment tools, and more.
+
+---
+
+## Getting Started
+Visit the GAS homepage [here](https://developers.google.com/apps-script). Start with their [official guide](https://developers.google.com/apps-script/guides) to learn the basics.
+
+---
+
+## Clasp
+
+**Clasp** is a CLI tool that allows you to write GAS code in any IDE instead of the browser-based IDE. Though similar to Git, Clasp is **not** a version control system but works well alongside Git for managing your projects.
+
+### Installation
+1. Install Node.js and a package manager (e.g., npm).
+2. Install Clasp globally:
+   ```
+   npm install -g @google/clasp
+   ```
+
+### First-Time Setup
+Authenticate with your Google account by running:
 ```
-/sub/{$userSubscriptionKey}/json
+clasp login
+```
+You can log out with:
+```
+clasp logout
 ```
 
-Sample Return
+### Creating a Project
+Create a GAS project with:
+```
+clasp create
+```
+This will generate a GAS project and a linked Google Drive file (if container-bound). Links to the project will be provided in the terminal.
 
-```json
-{
-    "version": 4,
-    "sub_name":"NeXT",
-    "email":"user@nextpanel.dev",
-    "user_name":"next_user",
-    "class": 64,
-    "class_expire_date":"1989-06-04 04:00:00",
-    "total_traffic": 9785653487206,
-    "used_upload_traffic": 7036874417766,
-    "used_download_traffic": 7036874417766,
-    "sub_url": {
-        "sing-box": "https://sub.demo.nextpanel.dev/sub/{$userSubscriptionKey}/singbox",
-        "clash": "https://sub.demo.nextpanel.dev/sub/{$userSubscriptionKey}/clash"
-    }
-}
+### Syncing Changes
+- Pull updates from Google:
+  ```
+  clasp pull
+  ```
+- Push changes to Google:
+  ```
+  clasp push
+  ```
+
+> Note: These commands sync with Google but don’t affect your Git repository. Use Git commands separately for version control.
+
+### File Types
+Clasp supports JavaScript (`.js`) and TypeScript (`.ts`). TypeScript is automatically compiled when you push the project.
+
+### Adding Dependencies
+To include NPM dependencies, create a project in the directory:
+```
+npm init -y
 ```
 
-## Clash format
+---
 
-Request path
+## GAS Type Hinting
 
+To enable type hinting and autocompletion in your IDE, install GAS type definitions:
 ```
-/sub/{$userSubscriptionKey}/clash
-```
-
-## SingBox format
-
-Request path
-
-```
-/sub/{$userSubscriptionKey}/singbox
+npm install --save @types/google-apps-script
 ```
 
-## V2Ray Json V5 format
-
-Request Path
-
+For web apps, install:
 ```
-/sub/{$userSubscriptionKey}/v2rayjson
+npm install --save @dgcode/html-service
 ```
+
+---
+
+## Web Apps with GAS
+
+GAS can host serverless web apps that interact with Google services. For example, you could create a frontend that reads and modifies data in a Google Sheet. Learn more in the [GAS Web Apps Guide](https://developers.google.com/apps-script/guides/web).
+
+---

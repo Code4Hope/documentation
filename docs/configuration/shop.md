@@ -1,35 +1,165 @@
-# Shop
+# Getting Started
+Welcome to the project! This guide will walk you through the process of setting up your local development environment and collaborating with the team on GitHub.
 
-## Product type cheat sheet
+## Step 1: Install Required Tools
 
-Product Type | Repeat Purchase | Stack Package Contents | Empty Usage on Activation | Only one activated order per user at the same time
---------|---------|-------------|---------------|-------------------
-TABP | ✔ | ✕ | ✔ | ✔
-Bandwidth Package | ✔ | ✔ | ✕ | ✕
-Time Package | ✔ | ✔`*` | ✕ | ✕
+To get started, you’ll need to install the necessary tools on your machine:
 
-`*` Usage time are only stacked if the Time Pack level is the same as the paid user's current level, free users are not subject to this restriction
+### 1. **Git** (Version Control)
+Git is a version control system that allows you to track changes and collaborate with others on code. It will be used to manage project code across multiple developers.
 
-## Time and Bandwidth Package (TABP)
+- **Windows**: 
+  - [Download Git for Windows](https://git-scm.com/download/win)
+  - After downloading, follow the installation wizard and make sure to add Git to your system PATH during installation.
+  
+- **macOS**:
+  - [Download Git for macOS](https://git-scm.com/download/mac)
+  - Follow the installation instructions
 
-TABP is the default product mode in SSPanel's old store system, each TABP contains a fixed level + level duration + traffic, users can buy more than one at one time, but only one TABP order can be active at the same time, multiple TABP orders will be activated in turn according to the order of purchasing, meanwhile, the TABP orders that are expired will be marked as ``expired``.
+- **Linux**:
+  - Use your package manager to install Git. For example, on Ubuntu, run:
+    ```bash
+    sudo apt-get install git
+    ```
 
-Each TABP order is activated for a maximum of one Cron cycle (5 minutes), and only one TABP order per user is activated in a Cron cycle.
+After installing, verify Git is correctly installed by running the following command in your terminal:
+```bash
+git -v
+```
 
-## Bandwidth Package
+### 2. **Node.js** (JavaScript Runtime)
+Node.js is a JavaScript runtime used for running JavaScript on the server-side and also for managing project dependencies. You’ll use Node.js to run local servers, package management, and more.
 
-This corresponds to the additional bandwidth packages in SSPanel's legacy store system. Users can purchase multiple bandwidth packages at once, and the contents of the bandwidth packages will be superimposed on the user's current total available bandwidth, with multiple bandwidth packages activated in turn in the order in which they were purchased.
+- **Download for Windows and macOS**:
+  - [Download Node.js](https://nodejs.org/)
 
-Each Time Package order will be activated for a maximum of one Cron cycle (5 minutes), and only one Time Package order per user will be activated in a Cron cycle.
+Follow the installation steps for your OS. During installation, ensure that the option to install `npm` (Node Package Manager) is selected.
 
-## Time Package
+- **Linux**:
+  - You can install Node.js through the package manager. For Ubuntu, run:
+    ```bash
+    sudo apt-get install nodejs
+    sudo apt-get install npm
+    ```
 
-Time Package is a unique product type added to SSPanel's new store system, which is intended to provide tiers, with a billing model that separates the tier duration from the traffic (Pay as You Go).
+Verify the installation by running:
+```bash
+node -v
+npm -v
+npx -v
+```
 
-When purchased by a free user, Time Packs behave like TABP, but they do not** reset the purchased user's used or total traffic.
+## Step 2: Explore Development Frameworks
 
-When a paying user's current tier is equal to the tier in the time pack, the tier hours in the time pack are used to extend the user's current tier hours and the `User Grouping`, `Rate Limit` and `Simultaneous Connection IP Limit` parameters in the time pack directly override the values in the user's current account.
+### 1. **Web Development: React**
+React is a popular JavaScript library used for building user interfaces. It allows developers to build reusable UI components.
 
-When a paying user's current level is not equal to the level in the time pack, the time pack will not be activated until the user's current level has expired.
+- **Why React**: React makes it easy to develop complex user interfaces with a component-based architecture. It is fast, flexible, and supports building both web and mobile applications.
+- **Official Documentation**: For detailed guidance, examples, and best practices, visit the [React Documentation](https://reactjs.org/).
+- **Recommended Setup**: You can set up a new React project using the command:
+  ```bash
+  npx create-react-app my-app
+  cd my-app
+  npm start
+  ```
 
-Each time pack order will be activated for a maximum of one Cron cycle (5 minutes), and only one time pack order per user will be activated in a Cron cycle.
+### 2. **Mobile App Development: Flutter**
+Flutter is an open-source framework by Google for building natively compiled applications for mobile, web, and desktop from a single codebase. It uses the Dart programming language.
+
+- **Why Flutter**: Flutter is fast, expressive, and allows for seamless UI design with a vast set of pre-designed widgets. It’s an excellent choice for cross-platform mobile app development.
+- **Official Documentation**: Check out the [Flutter Documentation](https://flutter.dev/docs) for setup instructions and tutorials.
+- **Recommended Setup**: To set up Flutter, follow these steps:
+  - Install Flutter SDK following the instructions for your OS on the [Flutter Install Page](https://flutter.dev/docs/get-started/install).
+  - Once installed, run the following command to check that Flutter is installed correctly:
+    ```bash
+    flutter doctor
+    ```
+
+## Step 3: Collaborate Using GitHub
+
+GitHub is where all of our project’s code will be stored, and it allows for easy collaboration among team members. Here’s how you can get started:
+
+### 1. **Join the GitHub Repository**
+- All operations team members will be sent an invitation to join the repository for whichever project we are currently working on at the time. Follow the link in the invitation email to gain access to the project’s GitHub repository.
+
+### 2. **Clone the Repository**
+Once you’ve accepted the invitation and want to begin working, clone the repository to your local machine using the following command:
+```bash
+git clone https://github.com/your-organization/your-repository.git
+```
+
+### 3. **Working Out of Branches**
+- The `main` branch is the default branch where all development will occur, however always check with the rest of the team to ensure you are editing the correct branch to avoid any mistakes. The following steps will work for other branches as well.
+- To check out the `main` branch, run:
+  ```bash
+  git checkout main
+  ```
+- If you are currently in another branch, you can switch to the `main` branch by running:
+  ```bash
+  git switch main
+  ```
+
+Here's the updated GitHub workflow step with instructions for establishing a remote connection:
+
+---
+
+### 4. **Follow the GitHub Workflow**
+To collaborate effectively, follow these steps to set up and work with GitHub:
+
+#### **1. Fork and Clone the Repository**
+- Fork the repository to your personal GitHub account (if applicable) by clicking the **Fork** button on the repository page.
+- Clone the repository to your local machine using:
+  ```bash
+  git clone https://github.com/your-organization/your-repository.git
+  ```
+  Replace `your-organization/your-repository` with the actual repository URL. This creates a local copy of the project on your machine.
+
+#### **2. Establish a Remote Connection**
+- Verify that the repository has a remote URL configured by running:
+  ```bash
+  git remote -v
+  ```
+- If it doesn’t, that means you still have to establish a remote connection. Use the following commands:
+  - Set up the origin repository:
+    ```bash
+    git remote add origin https://github.com/your-username/your-repository.git
+    ```
+
+- To confirm, run:
+  ```bash
+  git remote -v
+  ```
+  You should see both `origin` URLs.
+
+#### **3. Create a New Branch**
+Before making changes, create a new branch to work on:
+```bash
+git checkout -b branch-name
+```
+This keeps your changes separate from the `main` branch until they are ready to be reviewed and merged.
+
+#### **4. Make Changes and Commit**
+Make your changes to the project files. After completing your work:
+1. Stage your changes (you must add a space after the period or the commmand will not run-- this indicates that you want to stage ALL files in the project's root directory):
+   ```bash
+   git add .
+   ```
+2. Commit your changes with a meaningful message:
+   ```bash
+   git commit -m "Description of your changes"
+   ```
+
+#### **5. Push Changes**
+Push your changes to your GitHub repository:
+```bash
+git push origin feature-branch-name
+```
+If this is your first time pushing to a new branch, Git may prompt you to set the upstream branch. Use:
+```bash
+git push --set-upstream origin feature-branch-name
+```
+
+---
+
+With this detailed guide, you should have a clear understanding of how to set up your environment, collaborate effectively using GitHub, and get started with the frameworks used in this project. If you encounter any issues or need assistance, feel free to ask the team for support!
+

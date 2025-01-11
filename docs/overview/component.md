@@ -1,24 +1,20 @@
----
-sidebar_position: 1
----
+# About Code4Hope
+Code4Hope is a non-profit organization focused on hosting hackathons for social change, promoting education, sustainability, and health and wellness. Our flagship event, ImpactX, brings together participants from across the globe to collaborate on projects that make a difference.
 
-# Component
+### The Executive Board
+- **Founder and Exec Director**: Aryan Mittal  
+- **Exec Social Media Outreach Director**: Maira  
+- **Exec Outreach Director**: Krish
+- **Exec Event Director**: Ranya  
 
-## Overview
+### Teams
+- **General Team**: Focused on event planning, sponsorship outreach, and hosting workshops.
+- **Operations Team**: Handles all technical aspects, including web development, app development, and maintaining Code4Hope’s digital platforms.
 
-NeXT Panel is a typical PHP web application that requires the following server programs to work properly
-
-* HTTP server. For performance reasons we recommend Nginx as the web server.
-* A PHP script runtime to run the program. The current version of NeXT Panel is developed and tested on PHP version 8.3 with PHP-FPM and OPcache enabled.
-* MySQL-like database. We recommend using the latest LTS version of MariaDB. The current version of NeXT Panel is developed and tested on MariaDB version 11.4.
-* Redis key-value pair database, mainly used for storing non-persistent data to reduce IOPS on the main Database. The current version of NeXT Panel was developed and tested based on Redis version 7.2(Valkey, an open-source Redis fork should work as well).
-
-At the code level, NeXT Panel uses Slim Framework 4.x as the backend framework, Eloquent as the database ORM, Smarty 5.x and Twig 3.x template engines to provide html template rendering, and Composer to manage third-party libraries and dependencies.
-
-## Performance
-
-NeXT Panel can run on relatively low-performance Linux systems, but for user experience reasons, we recommend at least 2GB of available system memory for OPcache and database to use, reducing disk IO consumption.
-
-## Architecture
-
-![Architecture](/img/system-architecture.svg)
+## Timeline of Code4Hope
+Here’s a brief timeline of significant milestones for Code4Hope:
+- **August 2024**: Organization founded. Logo designed, brand established, and initial research.
+- **September 2024**: Launched Discord server, finalized ImpactX hackathon date, and began sponsor outreach.
+- **October 2024**: Website updates completed; over 200 sponsorship emails sent.
+- **December 2024**: Successfully hosted ImpactX hackathon with workshops and over 180 participants.
+- **March 2025**: Upcoming Code4Hope’25 hackathon scheduled.
