@@ -1,71 +1,63 @@
-# Merch Designer
+# Volunteer at Code4Hope  
 
-Welcome to the **Merch Designer Role** documentation! This guide outlines the expectations, responsibilities, and resources for individuals taking on the Merch Designer role at Code4Hope. This role focuses on creating impactful and visually appealing merchandise that represents our mission of fostering innovation and social change.
+Welcome to the **Volunteer Page** for Code4Hope! This section is designed to guide potential volunteers on how they can contribute to the success of our hackathons. Volunteers play a critical role in ensuring smooth operations and creating an impactful experience for participants.  
 
----
 
-## **Purpose of the Role**
-The Merch Designer is integral to shaping the visual identity of Code4Hope. Through unique and inspiring merchandise designs, the role helps build brand recognition, celebrate our events, and connect with our community.
+## What Do Volunteers Do?  
 
----
+As a Code4Hope volunteer, you will help with a variety of tasks to ensure the event runs seamlessly. Below are the primary responsibilities you might be assigned to during the event:  
 
-## **Key Responsibilities**
+### 1. **Check-In and Registration**  
+   - Greet participants, judges, and mentors upon arrival.  
+   - Verify registration details and distribute event materials such as badges, T-shirts, and schedules.  
 
-1. **Concept Development**
-   - Brainstorm and propose ideas for new merchandise.
-   - Align designs with Code4Hope’s branding and mission.
-   - Collaborate with event directors and the Director of Social Media Outreach to gather input and feedback.
+### 2. **Workshop and Session Support**  
+   - Assist speakers or workshop hosts by managing participant questions in chat (if virtual) or on-site (if in person).  
+   - Set up tech (projectors, mics, or virtual tools) before workshops begin.  
+   - Track attendance for sessions or workshops.  
 
-2. **Design Creation**
-   - Use design software (e.g., Adobe Illustrator, Canva, or Photoshop) to produce high-quality, print-ready designs.
-   - Ensure designs meet technical specifications required by vendors.
+### 3. **Help Desk Support**  
+   - Be the go-to person for participant queries during the event.  
+   - Provide support with hackathon platforms like Devpost, Zoom, or other tools.  
+   - Redirect complex questions to the appropriate team member.  
 
-3. **Collaboration**
-   - Work with event directors and Maira Batra (Director of Social Media Outreach) to ensure designs align with promotional efforts and social media campaigns.
+### 4. **Logistics and Operations**  
+   - Set up and tear down event areas, including tables, banners, and other materials (if in person).  
+   - Monitor event spaces to ensure everything stays organized.  
+   - Handle last-minute tasks or emergencies with flexibility.  
 
-4. **Vendor Coordination**
-   - Research merchandise production vendors and finalize designs to meet their specifications.
-   - Ensure timely communication with vendors to meet deadlines for production and delivery.
+### 5. **Mentor Coordination**  
+   - Assist in connecting participants with mentors for project advice.  
+   - Manage mentor schedules to ensure availability for participants.  
 
-5. **Trend Analysis**
-   - Stay up-to-date on current trends in merchandise design.
-   - Propose innovative ideas that will resonate with Code4Hope’s target audience.
-
----
-
-## **Skills & Tools**
-
-### **Preferred Skills**
-- Strong design aesthetics (color theory, typography, and layout).
-- Ability to create designs that appeal to a broad audience.
-- Strong communication and teamwork skills.
-
-### **Design Tools**
-- Adobe Creative Suite (Illustrator, Photoshop)
-- Canva
-- CorelDRAW
+### 6. **Judging and Submission Support**  
+   - Help participants navigate submission platforms like Devpost.  
+   - Ensure all project submissions meet the event deadlines.  
+   - Provide judges with their schedules and assist with room or platform transitions.  
 
 ---
 
-## **Deliverables**
-- Merch design mockups in approved file formats (e.g., .PNG, .PDF, .AI).
-- Final design files ready for production.
+## Requirements for Volunteers  
+
+We welcome volunteers from diverse backgrounds! Here’s what we expect:  
+- **Availability:** Commit to attending a training session before the event.  
+- **Teamwork:** Work collaboratively with other volunteers and organizers.  
+- **Communication:** Be approachable and ready to assist participants at any time.  
+- **Professionalism:** Represent Code4Hope positively while interacting with attendees.  
 
 ---
 
-## **Best Practices**
+## Benefits of Volunteering  
 
-1. Prioritize simplicity and versatility in designs.
-2. Align designs with Code4Hope’s mission and branding guidelines.
-3. Consider cost-effectiveness for production.
-4. Adhere to copyright and intellectual property laws.
-5. Communicate transparently with team members and vendors.
+By volunteering at Code4Hope, you will:  
+- Gain hands-on experience in event management and logistics.  
+- Expand your network by connecting with participants, industry mentors, and sponsors.  
+- Make a meaningful impact by helping young innovators bring their ideas to life.  
 
 ---
 
-## **Contact Information**
-For questions or additional guidance, please contact:
-- **Maira Batra, Executive Director of Social Media Outreach**
-  - Email: [maira.batra@code4hope.net](mailto:maira.batra@code4hope.net)
-- **Ranya Chaudhary, Executive Event Director**
-  - Email: [ranya.chaudhary@code4hope.net](mailto:ranya.chaudhary@code4hope.net)
+## How to Sign Up  
+
+Interested in joining the team? Fill out the [Volunteer Application Form](#) by the specified deadline. If you have any questions, contact us at **[events@code4hope.net](mailto:events@code4hope.net)**.  
+
+Together, we can make a difference!  

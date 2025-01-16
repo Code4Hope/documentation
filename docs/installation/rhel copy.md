@@ -1,14 +1,71 @@
-# Event Directors
-The role of an Event Director at Code4Hope is integral to the success of our mission to drive social change through technology. As an Event Director, you are responsible for overseeing the planning, execution, and management of our hackathons and other key events. You work closely with team members, sponsors, volunteers, and participants to create impactful experiences that foster innovation, collaboration, and problem-solving. Your leadership helps set the stage for meaningful workshops, competitions, and outreach events.
+# Merch Designer
 
-## Key Areas of Focus
-1. **Sponsorships**:
-   - We use google sheets to record sponsors names, their company emails, and all thenecessary info to contact them and secure a sponsorship
-   - Often, companies keep contact info in their website footer, or on seperate pages ont heir website. Although it's not ideal, finding sponsors does require some manual web-crawling
-2. **Workshops**:
-   - The best way to grow Code4Hope is to host workshops at other hackathons.
-   - You will use a spreadsheet to track hackathon managers’ emails, confirmations, and workshop topics.
+Welcome to the **Merch Designer Role** documentation! This guide outlines the expectations, responsibilities, and resources for individuals taking on the Merch Designer role at Code4Hope. This role focuses on creating impactful and visually appealing merchandise that represents our mission of fostering innovation and social change.
 
-### Getting Started
-- All necessary resources are available in the `Code4Hope Team Tasks` document that is pinned in the #team-general channel of our discord (only visible if youre on team).
-- Don’t hesitate to ask the E-board for guidance—we’re here to support you!
+---
+
+## **Purpose of the Role**
+The Merch Designer is integral to shaping the visual identity of Code4Hope. Through unique and inspiring merchandise designs, the role helps build brand recognition, celebrate our events, and connect with our community.
+
+---
+
+## **Key Responsibilities**
+
+1. **Concept Development**
+   - Brainstorm and propose ideas for new merchandise.
+   - Align designs with Code4Hope’s branding and mission.
+   - Collaborate with event directors and the Director of Social Media Outreach to gather input and feedback.
+
+2. **Design Creation**
+   - Use design software (e.g., Adobe Illustrator, Canva, or Photoshop) to produce high-quality, print-ready designs.
+   - Ensure designs meet technical specifications required by vendors.
+
+3. **Collaboration**
+   - Work with event directors and Maira Batra (Director of Social Media Outreach) to ensure designs align with promotional efforts and social media campaigns.
+
+4. **Vendor Coordination**
+   - Research merchandise production vendors and finalize designs to meet their specifications.
+   - Ensure timely communication with vendors to meet deadlines for production and delivery.
+
+5. **Trend Analysis**
+   - Stay up-to-date on current trends in merchandise design.
+   - Propose innovative ideas that will resonate with Code4Hope’s target audience.
+
+---
+
+## **Skills & Tools**
+
+### **Preferred Skills**
+- Strong design aesthetics (color theory, typography, and layout).
+- Ability to create designs that appeal to a broad audience.
+- Strong communication and teamwork skills.
+
+### **Design Tools**
+- Adobe Creative Suite (Illustrator, Photoshop)
+- Canva
+- CorelDRAW
+
+---
+
+## **Deliverables**
+- Merch design mockups in approved file formats (e.g., .PNG, .PDF, .AI).
+- Final design files ready for production.
+
+---
+
+## **Best Practices**
+
+1. Prioritize simplicity and versatility in designs.
+2. Align designs with Code4Hope’s mission and branding guidelines.
+3. Consider cost-effectiveness for production.
+4. Adhere to copyright and intellectual property laws.
+5. Communicate transparently with team members and vendors.
+
+---
+
+## **Contact Information**
+For questions or additional guidance, please contact:
+- **Maira Batra, Executive Director of Social Media Outreach**
+  - Email: [maira.batra@code4hope.net](mailto:maira.batra@code4hope.net)
+- **Ranya Chaudhary, Executive Event Director**
+  - Email: [ranya.chaudhary@code4hope.net](mailto:ranya.chaudhary@code4hope.net)
